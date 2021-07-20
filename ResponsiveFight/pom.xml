@@ -14,8 +14,6 @@
 					<target>7</target>
 				</configuration>
 			</plugin>
-
-
 		</plugins>
 	</build>
   <dependencies>
@@ -33,32 +31,24 @@
 		  <scope>test</scope>
 	  </dependency>
 
-
-	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 	  <dependency>
 		  <groupId>io.cucumber</groupId>
 		  <artifactId>cucumber-java</artifactId>
 		  <version>6.10.4</version>
 	  </dependency>
 
-
-	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 	  <dependency>
 		  <groupId>io.cucumber</groupId>
 		  <artifactId>cucumber-testng</artifactId>
 		  <version>6.10.4</version>
 	  </dependency>
 
-
-	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->
 	  <dependency>
 		  <groupId>io.cucumber</groupId>
 		  <artifactId>cucumber-core</artifactId>
 		  <version>6.10.4</version>
 	  </dependency>
 
-
-	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 	  <dependency>
 		  <groupId>io.cucumber</groupId>
 		  <artifactId>cucumber-picocontainer</artifactId>
@@ -71,9 +61,8 @@
 	    <groupId>com.vimalselvam</groupId>
 	    <artifactId>cucumber-extentsreport</artifactId>
 	    <version>1.1.0</version>
+	  </dependency>
 
-
-	</dependency>
 	  <dependency>
 		  <groupId>io.cucumber</groupId>
 		  <artifactId>cucumber-junit</artifactId>
@@ -95,11 +84,11 @@
 		  <scope>test</scope>
 	  </dependency>
 
-	<dependency>
-	    <groupId>org.apache.logging.log4j</groupId>
-	    <artifactId>log4j-core</artifactId>
-	    <version>2.14.1</version>
-	</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.14.1</version>
+		</dependency>
 
       <dependency>
           <groupId>io.cucumber</groupId>
@@ -133,19 +122,20 @@
 		  <version>5.7.0</version>
 		  <scope>test</scope>
 	  </dependency>
+
 	  <dependency>
 		  <groupId>org.junit.jupiter</groupId>
 		  <artifactId>junit-jupiter</artifactId>
 		  <version>RELEASE</version>
 		  <scope>test</scope>
 	  </dependency>
+
 	  <dependency>
 		  <groupId>io.rest-assured</groupId>
 		  <artifactId>rest-assured</artifactId>
 		  <version>4.4.0</version>
 		  <scope>compile</scope>
 	  </dependency>
-
 
   </dependencies>
 </project>
