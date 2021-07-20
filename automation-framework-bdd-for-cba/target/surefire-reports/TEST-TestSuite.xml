@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="2" name="TestSuite" time="34.331" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+0"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/xvaa2/Documents/CBA/Automation/automation-framework-bdd-for-cba"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/xvaa2/Documents/CBA/Automation/automation-framework-bdd-for-cba"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="16.0.1+0"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/h6/6sh_ydrn0lnc3vdm28dfjjx00rv61b/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.1/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/xvaa2/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.1/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.1/libexec/lib/jansi-native"/>
+    <property name="user.home" value="/Users/xvaa2"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="xvaa2"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.1/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+  </properties>
+  <testcase classname="com.runner.TestRunner" name="runScenario" time="17.321">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinations.CovidBattleStep.the_user_checks_his_final_score(CovidBattleStep.java:91)
+	at ✽.the user checks his final score(file:///Users/xvaa2/Documents/CBA/Automation/automation-framework-bdd-for-cba/src/test/resources/features/CovidBattle.feature:12)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@47d384ee
+
+Scenario Outline:                                                                                                                                           &amp;#27;[90m# src/test/resources/features/CovidBattle.feature:18&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                                                        &amp;#27;[90m# com.stepdefinations.CovidBattleStep.the_user_is_on_the_home_page()&amp;#27;[0m
+chrome
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mthe user creates a warrior having name &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mGajusr_002&amp;#27;[0m&amp;#27;[32m&quot; using browser &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mchrome&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                            &amp;#27;[90m# com.stepdefinations.CovidBattleStep.the_user_creates_a_warrior_having_name_using_browser(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32muser selects his battlefield as &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mbus&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                                                                 &amp;#27;[90m# com.stepdefinations.CovidBattleStep.user_selects_his_battlefield_as(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mhe is travelling by bus, he decides to &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mUse your superheroes Mask and sanitizer while traveling on public transport and clean your hands regularly.&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# com.stepdefinations.CovidBattleStep.he_is_travelling_by_bus_he_decides_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mthe user checks his final score&amp;#27;[0m                                                                                                                      &amp;#27;[90m# com.stepdefinations.CovidBattleStep.the_user_checks_his_final_score()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.stepdefinations.CovidBattleStep.the_user_checks_his_final_score(CovidBattleStep.java:91)
+	at ✽.the user checks his final score(file:///Users/xvaa2/Documents/CBA/Automation/automation-framework-bdd-for-cba/src/test/resources/features/CovidBattle.feature:12)
+&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 47381
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+July 20, 2021 3:30:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.runner.TestRunner" name="runScenario" time="6.856">
+    <failure message="
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;pcbuilds-MacBook-Pro.local&apos;, ip: &apos;2405:6e00:1339:3400:514e:f1fe:aa7f:9bd8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.0.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H114, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: ECDB9A9C-C27B-4595-88B6-19AC9B247558
+*** Element info: {Using=css selector, value=.alpha-heading}" type="org.openqa.selenium.NoSuchFrameException">org.openqa.selenium.NoSuchFrameException: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;pcbuilds-MacBook-Pro.local&apos;, ip: &apos;2405:6e00:1339:3400:514e:f1fe:aa7f:9bd8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.0.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H114, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: ECDB9A9C-C27B-4595-88B6-19AC9B247558
+*** Element info: {Using=css selector, value=.alpha-heading}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.BattleFieldPage.getLnkTextHeading(BattleFieldPage.java:27)
+	at com.stepdefinations.CovidBattleStep.user_selects_his_battlefield_as(CovidBattleStep.java:70)
+	at ✽.user selects his battlefield as &quot;bus&quot;(file:///Users/xvaa2/Documents/CBA/Automation/automation-framework-bdd-for-cba/src/test/resources/features/CovidBattle.feature:10)
+</failure>
+    <system-out>
+Scenario Outline:                                                                                                                                           &amp;#27;[90m# src/test/resources/features/CovidBattle.feature:19&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mthe user is on the home page&amp;#27;[0m                                                                                                                        &amp;#27;[90m# com.stepdefinations.CovidBattleStep.the_user_is_on_the_home_page()&amp;#27;[0m
+Safari
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mthe user creates a warrior having name &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mGajusr_003&amp;#27;[0m&amp;#27;[32m&quot; using browser &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mSafari&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m                                                                            &amp;#27;[90m# com.stepdefinations.CovidBattleStep.the_user_creates_a_warrior_having_name_using_browser(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31muser selects his battlefield as &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mbus&amp;#27;[0m&amp;#27;[31m&quot;&amp;#27;[0m                                                                                                                 &amp;#27;[90m# com.stepdefinations.CovidBattleStep.user_selects_his_battlefield_as(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchFrameException: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;pcbuilds-MacBook-Pro.local&apos;, ip: &apos;2405:6e00:1339:3400:514e:f1fe:aa7f:9bd8%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 14.0.3, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 19H114, safari:platformVersion: 10.15.7, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: ECDB9A9C-C27B-4595-88B6-19AC9B247558
+*** Element info: {Using=css selector, value=.alpha-heading}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.pages.BattleFieldPage.getLnkTextHeading(BattleFieldPage.java:27)
+	at com.stepdefinations.CovidBattleStep.user_selects_his_battlefield_as(CovidBattleStep.java:70)
+	at ✽.user selects his battlefield as &quot;bus&quot;(file:///Users/xvaa2/Documents/CBA/Automation/automation-framework-bdd-for-cba/src/test/resources/features/CovidBattle.feature:10)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mhe is travelling by bus, he decides to &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mUse your superheroes Mask and sanitizer while traveling on public transport and clean your hands regularly.&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# com.stepdefinations.CovidBattleStep.he_is_travelling_by_bus_he_decides_to(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mthe user checks his final score&amp;#27;[0m                                                                                                                      &amp;#27;[90m# com.stepdefinations.CovidBattleStep.the_user_checks_his_final_score()&amp;#27;[0m
+</system-out>
+    <system-err>July 20, 2021 3:30:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.runner.TestRunner" name="runScenario" time="4.236"/>
+  <testcase classname="com.runner.TestRunner" name="runScenario" time="1.385"/>
+  <testcase classname="com.runner.TestRunner" name="runScenario" time="1.92"/>
+  <testcase classname="com.runner.TestRunner" name="runScenario" time="1.46"/>
+  <testcase classname="com.functional.restTest" name="mytest" time="1.153"/>
+</testsuite>
